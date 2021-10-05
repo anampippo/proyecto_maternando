@@ -1,0 +1,75 @@
+
+.bodyContenedor {
+    background: url(../imagenes/fondo2.jpg);
+    color: rgb(243, 238, 234);
+    font-family: 'Quicksand', sans-serif;
+    padding: 0 1.5em;
+}
+
+.contenedor {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em;
+}
+
+
+
+.contacto {
+    box-shadow: 0 0 20px 0 rgba(230, 222, 227, 0.3);
+
+}
+
+.contactoForm {
+    background: rgb(185, 174, 165);
+}
+
+.contactoForm form p{
+    margin: 0;
+    padding: 1em;
+}
+
+.contactoForm form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contactoForm form .block {
+    grid-column: 1/3;
+}
+
+.contactoform form button,
+.contactoForm form input,
+.contactoForm form textarea {
+    width: 100%;
+    padding: .7em;
+    border: none;
+    background: none;
+    outline: 0;
+    color: white;
+    border-bottom: 1px solid black;
+}
+
+.contactoForm form button {
+    background: rgb(90, 80, 80);
+    border: 0;
+    text-transform: uppercase;
+    padding: 1em;
+}
+
+
+.contactoForm form button:hover {
+    background: rgb(184, 181, 181);
+    color: rgb(255, 255, 255);
+}
+
+.contactoInfo {
+    background: rgb(157, 218, 198);
+    padding: 2rem;
+    text-align: center;
+ul li {
+    font-size: 15px;
+}
+
+}
+

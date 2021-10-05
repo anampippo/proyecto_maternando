@@ -1,0 +1,80 @@
+
+
+.elcontainer {
+    background: rgb(204, 191, 191);
+    width: 100%;
+    max-width: 1000px;
+    margin: 8em auto;
+    display: grid;
+    gap: 4em;
+.content .article h2 
+.content .article p {
+   padding: 70px;
+ } 
+}
+
+
+.elcontainer > .content,
+.elcontainer > div {
+    background: url(../imagenes/fondo2.jpg);
+
+    padding: 10px;
+}
+
+
+.elContenedor {
+    background: rgb(255, 255, 255);
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bronquiolitis {
+    background: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50spx;
+    text-align: center;
+    border: 2px solid rgb(206, 229, 208);
+
+}
+
+.bronquiolitis__thumbnail {
+    width: 600px;
+    height: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.bronquiolitis__imagen {
+    width: 300px;
+    float: center;
+    margin-right: 15px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+
+.bronquiolitis__parrafo {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+li {
+    font-size: 15px;
+}
+
+.bronquiolitis__titulo {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+

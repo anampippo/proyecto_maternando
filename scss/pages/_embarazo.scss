@@ -1,0 +1,81 @@
+
+
+.micontainer {
+    background:white;
+    width: 100%;
+    max-width: 1000px;
+    margin: 7em auto;
+    display: grid;
+    gap: 4em;
+    grid-template-columns: repeat(3, 2fr);
+    .sidebar img {
+        width: 280px;
+        margin-top: 5px;
+        height: 280px;
+    }
+
+}
+
+.content .article h2 
+.content .article p {
+   padding: 50px;
+} 
+
+
+.micontainer > .content,
+.micontainer > .sidebar,
+.micontainer > div {
+    background: url(../imagenes/fondo2.jpg);
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.micontainer > .content {
+    grid-column: span 2;
+}
+
+.content > .article {
+    background-color: rgb(243, 240, 215);
+    padding: 50px;
+    margin-top: 10px;
+    color: rgb(15, 5, 7);
+
+}
+
+.article p {
+    font-size: 15px;
+}
+
+.micontainer > .sidebar {
+    grid-column: span 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h3{
+        font-size: 20px;
+        color: rgb(0, 161, 157);
+
+    }
+    p {
+        font-size: 15px;
+        text-align: center;
+        font-weight:bold;
+    }
+}
+
+
+
+.titulosMaternidad{
+    font-size: 25px;
+    color: rgb(0, 161, 157);
+    text-align: center;
+    font-weight:bolder;
+    margin-bottom: 15px;
+
+}
+
+
+
+
+

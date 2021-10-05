@@ -1,0 +1,23 @@
+/* IMPORTS */
+
+/* GLOBALS */
+@import "globals";
+
+/* PARTIALS */
+@import "partials/header";
+@import "partials/footer";
+
+/* PAGES */
+@import "pages/home";
+@import "pages/contacto";
+@import "pages/embarazo";
+@import "pages/crianzaypuerperio";
+@import "pages/lactancia";
+@import "pages/error404";
+
+/* BUCLE */
+@for $contador from 1 through 3 {
+    
+}
+
+
