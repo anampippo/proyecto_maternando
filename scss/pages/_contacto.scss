@@ -1,33 +1,39 @@
 
 .bodyContenedor {
-    background: url(../imagenes/fondo2.jpg);
-    color: rgb(243, 238, 234);
-    font-family: 'Quicksand', sans-serif;
-    padding: 0 1.5em;
+    background: url(../imagenes/fondo7.jpg);
+    color: rgb(255, 255, 255);
+    padding: auto;
+    font-size: 15px;
+    margin: 50px;
+
 }
 
 .contenedor {
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
-    padding: 1.5em;
+    padding: 2em;
+    margin:50px;
+    margin-top: auto;
 }
-
-
 
 .contacto {
     box-shadow: 0 0 20px 0 rgba(230, 222, 227, 0.3);
+    padding: 2em;
+   
 
 }
 
 .contactoForm {
-    background: rgb(185, 174, 165);
+    background: rgb(160, 147, 125);
+    font-family: 30px;
 }
 
 .contactoForm form p{
-    margin: 0;
+    margin: 10px;
     padding: 1em;
 }
+
 
 .contactoForm form {
     display: grid;
@@ -42,11 +48,11 @@
 .contactoForm form input,
 .contactoForm form textarea {
     width: 100%;
-    padding: .7em;
+    padding: 2em;
     border: none;
     background: none;
     outline: 0;
-    color: white;
+    color: rgb(12, 5, 5);
     border-bottom: 1px solid black;
 }
 
@@ -60,11 +66,11 @@
 
 .contactoForm form button:hover {
     background: rgb(184, 181, 181);
-    color: rgb(255, 255, 255);
+    color: rgb(29, 23, 23);
 }
 
 .contactoInfo {
-    background: rgb(157, 218, 198);
+    background: rgb(128, 96, 57);
     padding: 2rem;
     text-align: center;
 ul li {
@@ -72,4 +78,13 @@ ul li {
 }
 
 }
+
+ @media screen and (max-width: 480px) {
+   .container {
+       width: 100%;
+     background-color: yellow;
+ }
+ }
+     
+ 
 

@@ -1,1 +1,48 @@
+.elContenedor {
+    background:rgb(255, 255, 255);
+    max-width: auto;
+    width: 100%;
+    padding: 10px; 
+}
 
+.bronquiolitis {
+    background: rgb(253, 251, 251);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 50px;
+    text-align: center;
+    border: 3px solid  rgb(189, 199, 201);
+    line-height: 30px;
+    overflow-x: scroll;
+
+
+}
+
+
+.bronquiolitis__parrafo {
+    text-align: center;
+    padding: auto;
+    margin: auto;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+ul li {
+    font-size: 15px;
+}
+
+.bronquiolitis__titulo {
+    font-size: 30px;
+    font-weight: normal;
+    color: rgb(195, 104, 57);
+    margin-bottom: 15px;
+}
+
+#galeria {
+    padding: auto;
+    margin-bottom: 100px;
+}

@@ -28,27 +28,20 @@ main {
   text-align: center;
   margin-top: 18px;
   margin-bottom: 3px;
-  color: #5fdde5;
+  color: #e8d0b3;
   letter-spacing: 20px;
   font-weight: bolder;
 }
 
 .papaMaternidad {
-  background: url(../imagenes/fondo2.jpg);
-  border-radius: 10px;
-  padding: 0;
-  margin: 20px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
-  text-align: center;
+  padding: 10px;
+  margin: 30px;
 }
 
 .papaMaternidad .infoRespeto {
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
-  color: #df711b;
+  color: #d4b499;
 }
 
 #galeria .col-lg-4 {
@@ -63,6 +56,13 @@ main {
 
 #galeria img img:hover {
   border: 2px solid whitesmoke;
+}
+
+.subtitulosMaternidad {
+  font-size: 30px;
+  color: #7eb5a6;
+  text-align: center;
+  margin: 10px;
 }
 
 /* PARTIALS */
@@ -84,7 +84,7 @@ a {
 }
 
 .navegacion {
-  color: #ffb830;
+  color: #0c1122;
   font-size: 0%;
 }
 
@@ -100,7 +100,7 @@ a {
 
 .navegacion .menu {
   height: 100%;
-  font-size: 15px;
+  font-size: 10px;
   margin-top: 40px;
   width: 60%;
   display: block;
@@ -119,17 +119,18 @@ a {
 }
 
 .navegacion .menu > li:hover > a {
-  background-color: #f4ea8e;
-  color: #3db2ff;
+  background-color: #e8d0b3;
+  color: #f9f3df;
   position: relative;
 }
 
 footer {
-  background: #fff8e5;
+  background: #e8d0b3;
   height: auto;
   width: 100vw;
   padding-top: 40px;
-  color: #00a19d;
+  color: #7eb5a6;
+  font-weight: bold;
 }
 
 .footerContenedor {
@@ -154,13 +155,14 @@ footer {
   font-weight: 400;
   text-transform: capitalize;
   line-height: 3rem;
-  color: #f98404;
+  color: #c36839;
+  letter-spacing: 2px;
 }
 
 .parrafoFooter {
   max-width: 500px;
   margin: 10px auto;
-  line-height: 20px;
+  line-height: 30px;
   font-size: 15px;
 }
 
@@ -177,6 +179,7 @@ footer {
           justify-content: center;
   -webkit-transition: color .4s ease;
   transition: color .4s ease;
+  margin-top: 10px;
 }
 
 .socials li {
@@ -184,7 +187,7 @@ footer {
 }
 
 .socials li a {
-  color: #f98404;
+  color: #86340a;
 }
 
 .socials li a i {
@@ -192,35 +195,90 @@ footer {
 }
 
 .socials a:hover i {
-  color: #f7fd04;
+  color: #c36839;
 }
 
 /* PAGES */
+.elContenedor {
+  background: white;
+  max-width: auto;
+  width: 100%;
+  padding: 10px;
+}
+
+.bronquiolitis {
+  background: #fdfbfb;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  margin-bottom: 50px;
+  text-align: center;
+  border: 3px solid #bdc7c9;
+  line-height: 30px;
+  overflow-x: scroll;
+}
+
+.bronquiolitis__parrafo {
+  text-align: center;
+  padding: auto;
+  margin: auto;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+ul li {
+  font-size: 15px;
+}
+
+.bronquiolitis__titulo {
+  font-size: 30px;
+  font-weight: normal;
+  color: #c36839;
+  margin-bottom: 15px;
+}
+
+#galeria {
+  padding: auto;
+  margin-bottom: 100px;
+}
+
 .bodyContenedor {
-  background: url(../imagenes/fondo2.jpg);
-  color: #f3eeea;
-  font-family: 'Quicksand', sans-serif;
-  padding: 0 1.5em;
+  background: url(../imagenes/fondo7.jpg);
+  color: white;
+  padding: auto;
+  font-size: 15px;
+  margin: 50px;
 }
 
 .contenedor {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto;
-  padding: 1.5em;
+  padding: 2em;
+  margin: 50px;
+  margin-top: auto;
 }
 
 .contacto {
   -webkit-box-shadow: 0 0 20px 0 rgba(230, 222, 227, 0.3);
           box-shadow: 0 0 20px 0 rgba(230, 222, 227, 0.3);
+  padding: 2em;
 }
 
 .contactoForm {
-  background: #b9aea5;
+  background: #a0937d;
+  font-family: 30px;
 }
 
 .contactoForm form p {
-  margin: 0;
+  margin: 10px;
   padding: 1em;
 }
 
@@ -241,11 +299,11 @@ footer {
 .contactoForm form input,
 .contactoForm form textarea {
   width: 100%;
-  padding: .7em;
+  padding: 2em;
   border: none;
   background: none;
   outline: 0;
-  color: white;
+  color: #0c0505;
   border-bottom: 1px solid black;
 }
 
@@ -258,17 +316,24 @@ footer {
 
 .contactoForm form button:hover {
   background: #b8b5b5;
-  color: white;
+  color: #1d1717;
 }
 
 .contactoInfo {
-  background: #9ddac6;
+  background: #806039;
   padding: 2rem;
   text-align: center;
 }
 
 .contactoInfo ul li {
   font-size: 15px;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    width: 100%;
+    background-color: yellow;
+  }
 }
 
 .micontainer {
@@ -297,7 +362,7 @@ footer {
 .micontainer > .content,
 .micontainer > .sidebar,
 .micontainer > div {
-  background: url(../imagenes/fondo2.jpg);
+  background: url(../imagenes/fondo7.jpg);
   padding: 10px;
   border: 1px solid black;
 }
@@ -307,10 +372,12 @@ footer {
 }
 
 .content > .article {
-  background-color: #f3f0d7;
-  padding: 50px;
-  margin-top: 10px;
-  color: #0f0507;
+  background-color: #e9e0cc;
+  padding: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  color: black;
+  line-height: 40px;
 }
 
 .article p {
@@ -318,6 +385,8 @@ footer {
 }
 
 .micontainer > .sidebar {
+  padding: 30px;
+  margin: auto;
   grid-column: span 1;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -346,24 +415,31 @@ footer {
 }
 
 .titulosMaternidad {
-  font-size: 25px;
-  color: #00a19d;
+  font-size: 30px;
+  color: #c36839;
   text-align: center;
   font-weight: bolder;
   margin-bottom: 15px;
 }
 
 .elcontainer {
-  background: #ccbfbf;
+  background: url(../imagenes/fondo7.jpg);
   width: 100%;
   max-width: 1000px;
   margin: 8em auto;
+  padding: 40px;
   display: -ms-grid;
   display: grid;
   gap: 4em;
 }
 
-.elcontainer .content .article h2
+.elcontainer .article {
+  background-color: #e3cdc1;
+  padding: 50px;
+  line-height: 40px;
+}
+
+.elcontainer .article .content .article h2
 .content .article p {
   padding: 70px;
 }
@@ -371,18 +447,18 @@ footer {
 .elcontainer > .content,
 .elcontainer > div {
   background: url(../imagenes/fondo2.jpg);
-  padding: 10px;
+  padding: 2opx;
 }
 
 .elContenedor {
   background: white;
-  max-width: 1000px;
-  width: 90%;
-  margin: 0 auto;
+  max-width: auto;
+  width: 100%;
+  padding: 10px;
 }
 
 .bronquiolitis {
-  background: white;
+  background: #fdfbfb;
   border-radius: 15px;
   padding: 20px;
   margin: 40px;
@@ -393,9 +469,11 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  margin-bottom: 50spx;
+  margin-bottom: 50px;
   text-align: center;
-  border: 2px solid #cee5d0;
+  border: 3px solid #bdc7c9;
+  line-height: 30px;
+  overflow-x: scroll;
 }
 
 .bronquiolitis__thumbnail {
@@ -423,13 +501,24 @@ footer {
   line-height: 1.5;
 }
 
-li {
+ul li {
   font-size: 15px;
 }
 
 .bronquiolitis__titulo {
   font-size: 30px;
   font-weight: normal;
+  color: #c36839;
+  margin-bottom: 15px;
+}
+
+.titulosMaternidad {
+  font-size: 30px;
+  color: #c36839;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 15px;
+  letter-spacing: 10px;
 }
 
 .bodyCapa {
@@ -463,7 +552,7 @@ li {
   margin: auto;
   font-size: 15px;
   line-height: 1.5;
-  background: url(../imagenes/fondo2.jpg);
+  background: url(../image);
   border-radius: 15px;
   text-align: center;
 }
@@ -504,6 +593,14 @@ li {
   margin-bottom: 30px;
 }
 
+.titulosMaternidad {
+  font-size: 25px;
+  color: #c36839;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 15px;
+}
+
 .error {
   width: 500x;
   text-align: center;
@@ -511,19 +608,21 @@ li {
 }
 
 h1 {
+  color: #86340a;
   font-size: 2.5rem;
   font-weight: bolder;
   text-align: center;
 }
 
 h2 {
+  color: #c36839;
   font-size: 2rem;
   text-align: center;
 }
 
 a {
   text-decoration: none;
-  color: #ffb830;
+  color: #7eb5a6;
   text-align: center;
   font-size: 2rem;
 }
